@@ -34,3 +34,75 @@
     margin-top: 5rem;
 
 }
+.imgcontainer img{
+    width: 100%;
+    height:70vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.roofre{
+    bottom: 5rem;
+    left: 4rem;
+}
+.bgimgfurniture{
+    margin-top: 4rem;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/furnitureassembly.webp");
+    background-size:cover;
+}
+.playbtn{
+    border: 1px solid white;
+    padding: 3rem;
+}
+.pricepolicy{
+    background-color: #292826;
+    padding: 4rem;
+}
+.goldpack{
+    background-color: #2F2E2C;
+    padding: 2rem;
+}
+.goldpackimg{
+    width: 50%;
+   
+}
+.getnow{
+    background-color: #CF633A;
+    color: white;
+    padding:1rem;
+    border: none;
+
+
+}
+.silverpack{
+    margin-top: 4rem;
+    background-color: #2F2E2C;
+    padding: 2rem;
+}
+.getnow1{
+    background-color:#D6AD3C;
+    color: white;
+    padding:1rem;
+    border: none;
+
+
+}
+.clearprice {
+    list-style-type: none;
+    padding: 0px;
+
+}
+.clearprice i{
+    color: #D6AD3C;
+    
+}
+
+.countsection h1 {
+    font-size: 10rem;
+    color: #2F2E2C;
+  }
+.countsection p{
+    top: 5.5rem;
+    left: -4rem;
+}
