@@ -76,7 +76,7 @@
 
 }
 .silverpack{
-    margin-top: 4rem;
+    margin-top: 6rem;
     background-color: #2F2E2C;
     padding: 2rem;
 }
@@ -98,11 +98,138 @@
     
 }
 
-.countsection h1 {
-    font-size: 10rem;
+.countsection{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    position: relative;
+    
+}
+.countsection div{
     color: #2F2E2C;
-  }
+    font-size: 10rem;
+    font-weight: 600;
+    
+    
+
+}
 .countsection p{
-    top: 5.5rem;
-    left: -4rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+   
+}
+.item1{
+    position: absolute;
+    left: 6rem;
+    top: 7rem;
+
+}
+.item2{
+    position: absolute;
+    left: 25rem;
+    top: 7rem;
+
+}
+.item3{
+    position: absolute;
+    left: 43rem;
+    top: 7rem;
+
+}
+.item4{
+    position: absolute;
+    left: 60rem;
+    top: 7rem;
+
+}
+.repairtext{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    margin-top: 3rem;
+}
+.play{
+    border: 1px solid black;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+.pepoleoffice{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    gap: 1rem;
+    position: absolute;
+    top: 20rem;
+    left: -5rem;
+
+}
+.people{
+    background-color: #292826;
+    color: white;
+    padding: 1rem;
+}
+.office{
+    background-color: #D6AD3C;
+    color: white;
+    padding: 1rem;
+}
+.ABOUTOURWORKSLIDER{
+text-align: center;	
+}
+.ABOUTOURWORKSLIDER img{
+ width: 8rem;
+ height: 8rem;
+ border-radius: 50%;
+ margin: 3rem;
+
+}
+.formsection{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+.footerimg{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+.footerimg img{
+    width: 10%;
+}
+.footerlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.footerlist li a{
+    color: #858484;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+.footersocialicon{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.footersocialicon li{
+    margin: .5rem;
+}
+.footersocialicon i{
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
 }
