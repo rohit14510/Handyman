@@ -5,18 +5,32 @@
 .headercontainer{
     width: 100%;
     height: 35rem;
-    background-image: url('images/164_2-1-copyright.webp');
+    background-image: var(--bg-image);
     background-size: cover;
   
 }
 .headerlist a{
     color: white;
+   
+}
+.headerlist a:hover{
+    color: white;
+   
+    
 
 }
+
 .headertext{
     padding: 4rem;
     padding-top: 10rem;
 }
+/* .about--part1{
+    opacity:0 ;
+
+}
+.about--part1 .animated{
+    opacity: 1;
+} */
 .Getbtn{
     color: white;
     background-color:#D6673C ;
@@ -58,7 +72,7 @@
     margin-top: 4rem;
     width: 100%;
     height: 100vh;
-    background-image: url("images/image-34-copyright.webp");
+    background-image: var(--bg-image);
     background-size:cover;
 }
 .playbtn{
@@ -243,3 +257,4 @@ text-align: center;
     border: 1px solid white;
     padding: 1rem;
 }
+/* End Style Index */
